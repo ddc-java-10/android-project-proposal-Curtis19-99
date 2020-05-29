@@ -1,6 +1,6 @@
 ---
-title: Freestyle Rap (ill think of something more interesting later)
-description: A rhyme generator for when you're freestyling 
+title: Freestyle Rhyme
+description: A rhyme generator to help your freestyling. 
 layout: default
 ---
 
@@ -17,11 +17,11 @@ The purpose of this app is to create a rhyme generator for when you freestyle an
 	>This could be for anyone who just needs something to imput a word and a rhyme will come out. 
 
 * Somebody freestyling who has ran out of ideas and topics to rhyme about.
-	>As someone who freestyle's with friends a lot we can rap for a while. The issue with rapping for long periods of time is that the subject matter that came off the top of your head can get a little stale. This app would satisfy that by having a random rhyme generator to give you ideas on what to continue rapping about. 
+	>As someone who freestyle's with friends a lot we can rap for a while. The issue with rapping for long periods of time is that the subject matter that came off the top of your head can get a little stale. This app would satisfy that by having a random rhyme and topic generator to give you ideas on what to continue rapping about. 
 
 ## Functionality
 
-The user will be able to enter in single words and it will bring up words that rhyme with it.
+The user will be able to enter in single or double words and it will bring up words that rhyme with it.
 
 The user will be able to enter in lines of words or "bars" and it will take the last word and rhyme it together keeping the format of freestlying. 
 
@@ -29,15 +29,19 @@ The user will be able to hit a random idea button and it will bring up two optio
 
 (optional not sure how this will work yet) The user can say a word into the microphone and it will bring up rhyme generations based on the spoken word. This could also be done with phrases or "bars" using the last word to generate a rhyme. 
 
+I would like to impliment Markov Chains to try and have a predict feature to continually generate rhymes of one another. 
+
 ## Persistent data
 
 Past words used.
 
-Unsure what else at the moment. 
+Common words used.
 
-List, in general terms and using a bullet list, what content will be stored on the client side. This should include any information that users of your system would expect to be maintained (i.e. without connection to a server) across multiple sessions of use. 
+Unsure what else at the moment. 
     
 ## Device/external services
+
+Rhyme Api, https://rhymebrain.com/api.html
 
 Potentially microphone access.
 
@@ -45,4 +49,8 @@ Potentially speaker access to say words back.
 
 ## Stretch goals/possible enhancements 
 
-Something that can say the words back using the microphone.
+Envoking the microphone to recognize words and generate rhymes of of the spoken words.
+
+Implimentation of Markov chain to try and predict next words or rhymes. 
+
+
