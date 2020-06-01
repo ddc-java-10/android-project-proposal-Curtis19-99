@@ -10,47 +10,47 @@ The purpose of this app is to create a rhyme generator for when you freestyle an
 
 ## Intended users
 
-* For anyone who enjoys to freestyle rap, but recognizes that sometimes you just need help rhyming certain words together. 
+1. For anyone who enjoys to freestyle rap, but recognizes that sometimes you just need help rhyming certain words together. 
 	>As someone who enjoys freestyling, I would find useful an app that helps me when I get stuck or rhyme myself into a corner.
 
-* Anyone that needs a simple rhyme generator for any reason.
+2. Anyone that needs a simple rhyme generator for any reason.
 	>This could be for anyone who just needs something to imput a word and a rhyme will come out. 
 
-* Somebody freestyling who has ran out of ideas and topics to rhyme about.
+3. Somebody freestyling who has ran out of ideas and topics to rhyme about.
 	>As someone who freestyle's with friends a lot we can rap for a while. The issue with rapping for long periods of time is that the subject matter that came off the top of your head can get a little stale. This app would satisfy that by having a random rhyme and topic generator to give you ideas on what to continue rapping about. 
 
 ## Functionality
 
-The user will be able to enter in single or double words and it will bring up words that rhyme with it.
+1. The user will be able to enter in single or double words and it will bring up words that rhyme with it.
 
-The user will be able to enter in lines of words or "bars" and it will take the last word and rhyme it together keeping the format of freestlying. 
+2. The user will be able to enter in lines of words or "bars" and it will take the last word and rhyme it together keeping the format of freestlying. 
 
-The user will be able to hit a random idea button and it will bring up two options. A topic or a word to rhyme with. 
-
-(optional not sure how this will work yet) The user can say a word into the microphone and it will bring up rhyme generations based on the spoken word. This could also be done with phrases or "bars" using the last word to generate a rhyme. 
-
-I would like to impliment Markov Chains to try and have a predict feature to continually generate rhymes of one another. 
+3. The user will be able to hit a random idea button and it will bring up two options. A topic or a word to rhyme with. 
 
 ## Persistent data
 
-Past words used.
+1. Past keywords used.
 
-Common words used.
+2. Common words the user has requested rhymes for.
 
-Unsure what else at the moment. 
+3. Previous rhymes selected off of different keywords.
+ 
     
 ## Device/external services
 
-Rhyme Api, https://rhymebrain.com/api.html
+1. Rhyme Api, https://rhymebrain.com/api.html
 
-Potentially microphone access.
+2. Potential use of Forvo API.
 
-Potentially speaker access to say words back.
+3. Potentially microphone access.
+
+4. Potentially speaker access to say words back.
 
 ## Stretch goals/possible enhancements 
 
-Envoking the microphone to recognize words and generate rhymes of of the spoken words.
+1. Envoking the microphone to recognize words and generate rhymes of of the spoken words.
 
-Implimentation of Markov chain to try and predict next words or rhymes. 
+2. Implimentation of Markov chain/roulette-wheel sampling to try and predict next words or rhymes. (roulette-wheel looks way easier to impliment)
 
+3. Using the speaker to say words that user selects. (if they want to have the app read back to them. This can be done with Android's TalkBack screen reader. 
 
